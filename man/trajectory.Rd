@@ -30,7 +30,6 @@ trajectory(x0=1,t0=0,T=1,a,b,n=100)
   \code{\link{gen.vc},\link{Markov},\link{lewis}}.
 }
 \examples{
-require(ts)
 n <- 100
 T <- 1
 x0 <- 1

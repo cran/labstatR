@@ -1,5 +1,5 @@
 Package: labstatR
-Version: 1.0.2
+Version: 1.0.3
 Title: Libreria del Laboratorio di Statistica  con R
 Author: Stefano M.Iacus <stefano.iacus@unimi.it> and Guido
   Masarotto <guido@sirio.stat.unipd.it>
@@ -13,5 +13,4 @@ Description: Insieme di funzioni di supporto al volume
         docs are in italian as well.
 License: GPL
 URL: http://www.ateneonline.it/LibroAteneo.asp?item_id=1436
-
-
+Packaged: Sun Jan 16 03:03:46 2005; jago
