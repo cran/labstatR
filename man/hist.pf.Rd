@@ -6,13 +6,13 @@
   corrispondente poligono di frequenza.
 }
 \usage{
-hist.pf(x, br, ...)
+hist.pf(x, br, \dots)
 }
 \arguments{
   \item{x}{vettore di dati}
   \item{br}{numero di intervalli, metodo di scelta degli intervalli o
   vettore di estremi degli intervalli}
-  \item{...}{argomenti da passare alla funzione \code{hist}}
+  \item{\dots}{argomenti da passare alla funzione \code{hist}}
 }
 \details{
   Il parametro \code{br} si comporta esattamente come il parametro

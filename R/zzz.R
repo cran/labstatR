@@ -1,9 +1,8 @@
 .First.lib <-
 function(lib, pkg)
 {
-    if(!require("stats", quietly = TRUE))
-		requite(ts)
-    mylib <- dirname(system.file(package = "labstatR"))
+ 
+	mylib <- dirname(system.file(package = "labstatR"))
 	if(require("utils", quietly=TRUE)){
      ver <- packageDescription("labstatR", lib = mylib)["Version"]
      txt <- c("\n",
@@ -12,7 +11,7 @@ function(lib, pkg)
              paste(sQuote("labstatR"),
                    "Insieme di funzioni di supporto al volume",
 				   "'Laboratorio di Statistica con R',", 
-				   "Iacus-Masarotto, MacGraw-Hill Italia, 2003."),
+				   "Iacus-Masarotto, MacGraw-Hill Italia, 2006."),
              "\n",
              paste("Si veda",
                    sQuote("library(help=\"labstatR\")"),
