@@ -1,23 +1,11 @@
-.First.lib <-
-function(lib, pkg)
-{
- 
-	mylib <- dirname(system.file(package = "labstatR"))
-	if(require("utils", quietly=TRUE)){
-     ver <- packageDescription("labstatR", lib = mylib)["Version"]
-     txt <- c("\n",
-             paste(sQuote("labstatR"), "version:", ver),
-             "\n",
-             paste(sQuote("labstatR"),
-                   "Insieme di funzioni di supporto al volume",
-				   "'Laboratorio di Statistica con R',", 
-				   "Iacus-Masarotto, MacGraw-Hill Italia, 2006."),
-             "\n",
-             paste("Si veda",
+.onAttach <- function(libname, pkgname) {
+    Pver <- read.dcf(file=system.file("DESCRIPTION", package=pkgname),
+                      fields="Version")
+    packageStartupMessage(paste(pkgname, Pver))
+    packageStartupMessage("Insieme di funzioni di supporto al volume")
+    packageStartupMessage(sQuote('Laboratorio di Statistica con R'))
+    packageStartupMessage("Iacus-Masarotto, MacGraw-Hill Italia, 2006.")
+    packageStartupMessage(paste("Si veda",
                    sQuote("library(help=\"labstatR\")"),
-                   "per i comandi disponibili."),
-             "\n")
-    if(interactive() || getOption("verbose"))
-        writeLines(strwrap(txt, indent = 4, exdent = 4))
-	}
+                   "per i comandi disponibili."))
 }
