@@ -8,4 +8,7 @@
     packageStartupMessage(paste("Si veda",
                    sQuote("library(help=\"labstatR\")"),
                    "per i comandi disponibili."))
+    packageStartupMessage("Nota: 'mean.a', 'mean.g' e 'hist.pf' sono state sostituite rispettivamente da 'meana', 'meang' e 'histpf'")
+                   
 }
+

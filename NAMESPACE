@@ -3,3 +3,7 @@
 
 # Export all names
 exportPattern(".")
+
+importFrom(stats, cov, runif, median, var, qchisq, optim, pchisq, rnorm)
+importFrom(grDevices, rainbow)
+importFrom(graphics, plot, axis, box, points, lines, abline, rect,polygon, hist, curve, symbols)

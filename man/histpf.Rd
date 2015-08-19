@@ -1,12 +1,12 @@
-\name{hist.pf}
-\alias{hist.pf}
+\name{histpf}
+\alias{histpf}
 \title{Disegna il poligono di frequenza}
 \description{
   Questa funzione disegna l'istogramma e vi sovrappone il
   corrispondente poligono di frequenza.
 }
 \usage{
-hist.pf(x, br, \dots)
+histpf(x, br, \dots)
 }
 \arguments{
   \item{x}{vettore di dati}
@@ -23,6 +23,6 @@ hist.pf(x, br, \dots)
 }
 \examples{
 x <- rnorm(50)
-hist.pf(x,br=5)
+histpf(x,br=5)
 }
 \keyword{univar}

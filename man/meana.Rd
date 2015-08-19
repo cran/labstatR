@@ -1,21 +1,21 @@
-\name{mean.g}
-\alias{mean.g}
-\title{Calcola la media geometrica}
+\name{meana}
+\alias{meana}
+\title{Calcola la media armonica}
 \description{
-  Questa funzione permette il calcolo della media geometrica.
+  Questa funzione permette il calcolo della media armonica.
 }
 \usage{
-mean.g(x,\dots)
+meana(x, \dots)
 }
 \arguments{
   \item{x}{vettore di dati}
   \item{\dots}{parametri aggiuntivi (ignorati in questa versione)}  
 }
 \seealso{
-  \code{\link{mean.a}}.
+  \code{\link{meang}}.
 }
 \examples{
 x <- c(1,3,2,4,6,7)
-mean.g(x)
+meana(x)
 }
 \keyword{univar}
