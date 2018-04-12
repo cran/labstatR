@@ -1,7 +1,7 @@
-e7d8a6da0073b4f6589177536796a463 *DESCRIPTION
+c54237c28b06de3e1d0b96c59ce6d0b6 *DESCRIPTION
 56bca0ccb135bee8c8dfded921d81700 *INDEX
 769677e6a048561f057b55a6032577c5 *NAMESPACE
-18bdd1506e0f5549fc2e1d65d90c8a7e *R/labstatR.R
+7e2ab3e3788c7031fbd87c6ef5b0b74a *R/labstatR.R
 edd8c9f8dd75728ae3bfa7dcb0690c66 *R/zzz.R
 03dfc86e9076df6bce4c703e8414d02f *data/interinale.rda
 b53885e7c5b59235b8bab8919db2a885 *inst/scripts/AppA.R
@@ -34,5 +34,5 @@ b75546cf4f7bfdce4d1a061446a5bd0b *man/lewis.Rd
 94133f86cd2a58b64fce86b2efb842c7 *man/meang.Rd
 0e6dd00226ff97636c77641cd5eb7745 *man/sigma2.Rd
 282ce884b22753fbce0d1ac7645472d3 *man/skew.Rd
-1bec2acb6e25d2eda66e5b9d9da4f263 *man/test.var.Rd
+10798248c15dc0714717ca35ef52bdbf *man/test.var.Rd
 1ff3d55dca140ac4db29e2a3e2f646b3 *man/trajectory.Rd
