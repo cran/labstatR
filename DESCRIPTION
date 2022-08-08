@@ -1,10 +1,9 @@
 Package: labstatR
-Version: 1.0.11
-Date: 2020-10-22
+Version: 1.0.13
 Title: Libreria Del Laboratorio Di Statistica Con R
-Author: Stefano M.Iacus <stefano.iacus@unimi.it> and Guido Masarotto
+Author: Stefano M.Iacus <siacus@iq.harvard.edu> and Guido Masarotto
         <guido@sirio.stat.unipd.it>
-Maintainer: Stefano M.Iacus <stefano.iacus@unimi.it>
+Maintainer: Stefano M. Iacus <siacus@iq.harvard.edu>
 Description: Insieme di funzioni di supporto al volume "Laboratorio di
         Statistica con R", Iacus-Masarotto, MacGraw-Hill Italia, 2006.
         This package contains sets of functions defined in "Laboratorio
@@ -13,6 +12,6 @@ Description: Insieme di funzioni di supporto al volume "Laboratorio di
 License: GPL (>= 2)
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2020-10-22 21:24:15 UTC; jago
+Packaged: 2022-08-08 14:58:58 UTC; jago
 Repository: CRAN
-Date/Publication: 2020-10-22 21:40:02 UTC
+Date/Publication: 2022-08-08 18:30:06 UTC
